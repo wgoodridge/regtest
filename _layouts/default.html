@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>{{ page.title}} | {{ site.title }} </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/w3.css"> -->
+  <link rel="stylesheet" type="text/css" href={{ "/css/w3.css" | relative_url }}>
+  </head>
+<body>
+  <header class="w3-container w3-margin w3-black ">
+    <p class="w3-large">{{site.title}} - <span class="w3-medium">{{site.subtitle}}</span></p>
+  </header>
+<div class="w3-row">
+  <div class="w3-col w3-left w3-container" style="width:250px">
+    {% include sidebar.html %}
+  </div>
+  <div class="w3-rest w3-container">
+    {{content}}
+    <footer class="w3-container w3-black w3-border-top">
+      <h3>Footer</h3>
+    </footer>
+  </div>
+</div>
+</body>
+
+</html>
