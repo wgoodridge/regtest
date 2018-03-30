@@ -9,12 +9,37 @@ permalink: test-1.html
 ---
 {{page.title}}
 {: .w3-xlarge}
-In this section: {{page.summary}}
-1. TOC
-{:toc .w3-light-grey}
+{{page.summary}}
+* TOC
+{:toc .wwg-button .w3-light-grey}
+
+this is some text
 
 ## Heading Two
-this is some text under heading two
+
+- List 1
+  - Inner list 1
+  - Inner list 1
+- List 2
+  - Inner list 2
+  - Inner list 2
+
+this is a list
+
+1. List n1
+   1. Inner list n1
+   2. Inner list n1
+
+2. List n2
+   1. Inner list n2
+   2. Inner list n3
+
+some text
+
+
+
+
+
 
 Column One  | Column Two  | Column Three  
 --|---|--

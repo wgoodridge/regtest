@@ -1,7 +1,7 @@
 doc_list_title: Site Documentation
 
 toc:
-- title: Test Pages
+- title: Tasks
   subfolderitems:
     - page: Test1
       url: /test-1.html
@@ -11,25 +11,32 @@ toc:
       url: /test-3.html
 - title: Templates
   subfolderitems:
-    - page: SOP Template
+    - page: Part 11 SOPs
       url: #/sops/sop-template.html
-    - page: Piece2
+    - page: ISO Security
       url: #/piece2.html
-    - page: Piece3
+    - page: Test Protocols
       url: #/piece3.html
-- title: Group3
+- title: Testing
   subfolderitems:
-    - page: Widget1
+    - page: Infrastructure
       url: #/widget1.html
-    - page: Widget2
+    - page: Non-Configured Systems
+      url: #/widget1.html
+    - page: Configured Systems
       url: #/widget2.html
-    - page: Widget3
+    - page: Custom Systems
+      url: #/widget2.html
+    - page: Cloud Systems
       url: #/widget3.html
-- title: Group4
+    - page: Data Migration
+      url: #/widget3.html
+
+- title: Documentation
   subfolderitems:
-    - page: Gadget1
+    - page: SDLC
       url: #/widget1.html
-    - page: Gadget2
+    - page: ISMS
       url: #/widget2.html
-    - page: Gadget3
+    - page: QMS
       url: #/widget3.html

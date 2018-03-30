@@ -1,10 +1,10 @@
 <div class="w3-bar-block  w3-lightgrey">
-  <a href="{{"/" | relative_url }}" class="w3-bar-item w3-button w3-margin-left w3-hover-light-grey">Home Page</a>
+  <a href="{{"/" | relative_url }}" class="w3-bar-item w3-button  w3-hover-light-grey">Home Page</a>
   {% for myvar in site.data.navigation.toc %}
     <a class="w3-bar-item "><b>{{myvar.title}}</b></a>
         {% for mylink in myvar.subfolderitems %}
         {% if mylink.url == page.url%}
-          <a href="{{mylink.url | relative_url }}" class="w3-bar-item w3-button w3-text-blue "><b>{{mylink.page}}</b></a>
+          <a href="{{mylink.url | relative_url }}" class="w3-bar-item w3-button w3-text-blue"><b>{{mylink.page}}</b></a>
         {% else %}
           <a href="{{mylink.url | relative_url }}" class="w3-bar-item w3-button w3-hover-light-grey">{{mylink.page}}</a>
         {% endif %}

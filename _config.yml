@@ -1,8 +1,8 @@
-name: Documenting and Testing
+name: RegTest
 title: RegTest
-subtitle:  Detailed Templates for Regulated Applications
+subtitle:  Templates for testing Regulated Systems
 url:
-description: Website with templates for documenting and testing FDA and EU regulated life science applications. Templates are based on GAMP5, and ISO security standards, most can be output in several formats (doc, pdf, html, markdown), with enough detail for easy customization.
+description: Templates for testing regulated systems based on FDA guidance, GAMP5 best practices, and the ISO 27001 security standard.
 baseurl: /regtest
 url:
 kramdown:

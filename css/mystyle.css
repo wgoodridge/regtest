@@ -1,0 +1,39 @@
+.w3-bar-block .w3-bar-item {
+  width: 100%;
+  display: block;
+  /* padding: 8px 16px; */
+  padding: 3px 16px;
+  text-align: left;
+  border: none;
+  outline: none;
+  white-space: normal;
+  float: none
+}
+ .wwg-button {
+  border: none;
+  /* display: block; */
+  display: inline-block;
+  outline: 0;
+  padding: 8px 16px;
+  /* vertical-align: middle; */
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  /* background-color: inherit; */
+  /* background-color: lightgrey; */
+  text-align: left;
+  cursor: pointer;
+  white-space: nowrap
+}
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    /* margin: 0; */
+    /* padding: 0; */
+}
+a:link {
+    text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
