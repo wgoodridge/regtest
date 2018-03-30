@@ -3,7 +3,7 @@ title: Test1
 tags: [formatting]
 keyords: notes, tips, cautions, admonitions
 last_updated: March 27, 2018
-layout: default
+layout: page
 summary: "Test page for auto table of contents"
 permalink: test-1.html
 ---
