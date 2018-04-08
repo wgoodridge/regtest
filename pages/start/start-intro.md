@@ -1,11 +1,11 @@
 ---
-title: Using the Templates
+title: Introduction
 tags: [formatting]
 keyords: notes, tips, cautions, admonitions
 last_updated: March 27, 2018
 layout: page
 summary: "How to use the templates"
-permalink: about.html
+permalink: start-intro.html
 ---
 {{page.title}}
 {: .w3-xlarge}

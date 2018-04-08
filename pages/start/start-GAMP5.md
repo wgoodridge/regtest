@@ -1,11 +1,11 @@
 ---
-title: Using the Templates
+title: GAMP5
 tags: [formatting]
 keyords: notes, tips, cautions, admonitions
 last_updated: March 27, 2018
 layout: page
-summary: "How to use the templates"
-permalink: about.html
+summary: "Background material on GAMP5 best practices"
+permalink: start-GAMP5.html
 ---
 {{page.title}}
 {: .w3-xlarge}

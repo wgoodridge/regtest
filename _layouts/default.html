@@ -9,19 +9,20 @@
   </head>
 <body>
   <header class="w3-container w3-margin w3-black ">
-    <p class="w3-large">{{site.title}} - <span class="w3-medium">{{site.subtitle}}</span></p>
+    <p class="w3-large">{{site.title}} - <span class="w3-medium">{{site.subtitle}}</span> </p>
   </header>
-<div class="w3-row">
-  <div class="w3-col w3-left w3-container" style="width:250px">
-    {% include sidebar.html %}
+  <div class="w3-row">
+    <div class="w3-col w3-left w3-container" style="width:250px">
+      {% include sidebar.html %}
+    </div>
+    <div class="w3-rest w3-container">
+      {{content}}
+    </div>
   </div>
-  <div class="w3-rest w3-container">
-    {{content}}
-    <footer class="w3-container w3-black w3-border-top">
+  <footer class="w3-black w3-margin">
+    <div class="w3-container ">
       <h3>Footer</h3>
-    </footer>
-  </div>
-</div>
-</body>
-
+    </div>
+  </footer>
+  </body>
 </html>

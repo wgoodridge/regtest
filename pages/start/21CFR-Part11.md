@@ -1,11 +1,11 @@
 ---
-title: Using the Templates
+title: 21 CFR Part 11
 tags: [formatting]
 keyords: notes, tips, cautions, admonitions
 last_updated: March 27, 2018
 layout: page
-summary: "How to use the templates"
-permalink: about.html
+summary: "Background material on 21 CFR Part 11 Regulation"
+permalink: start-Part11.html
 ---
 {{page.title}}
 {: .w3-xlarge}

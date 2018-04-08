@@ -1,5 +1,7 @@
 <div class="w3-bar-block  w3-lightgrey">
   <a href="{{"/" | relative_url }}" class="w3-bar-item w3-button  w3-hover-light-grey">Home Page</a>
+  <a href="{{"/about.html" | relative_url }}" class="w3-bar-item w3-button  w3-hover-light-grey">Using the Templates</a>
+
   {% for myvar in site.data.navigation.toc %}
     <a class="w3-bar-item "><b>{{myvar.title}}</b></a>
         {% for mylink in myvar.subfolderitems %}
