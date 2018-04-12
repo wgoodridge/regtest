@@ -1,10 +1,14 @@
 ---
 title: Home Page
 layout: page
-permalink: /
+permalink:
 ---
 
+
+
 ### {{page.title}}
+
+page.url ={{page.url}}
 
 This site contains templates for documenting and testing FDA-regulated web applications to GAMP quality and ISO security standards. The templates fill the gap between the brief outlines provided in most instructions and the detailed procedures and reports that are actually required to comply with the regulations.
 
