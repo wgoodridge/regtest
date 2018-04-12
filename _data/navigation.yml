@@ -1,44 +1,13 @@
 doc_list_title: Site Documentation
 
 toc:
-- title: Regulations
+- title: Introduction
   subfolderitems:
-
-
-    - page: 21 CFR Part 11
-      url: /start-Part11.html
-    - page: GAMP5
-      url: /start-GAMP5.html
-    - page: ISO 27001
-      url: /start-ISO27001.html
-- title: Templates
-  subfolderitems:
-    - page: Part 11 SOPs
-      url: #/sops/sop-template.html
-    - page: ISO Security
-      url: #/piece2.html
-    - page: Test Protocols
-      url: #/piece3.html
-- title: Testing
-  subfolderitems:
-    - page: Infrastructure
-      url: #/widget1.html
-    - page: Non-Configured Systems
-      url: #/widget1.html
-    - page: Configured Systems
-      url: #/widget2.html
-    - page: Custom Systems
-      url: #/widget2.html
-    - page: Cloud Systems
-      url: #/widget3.html
-    - page: Data Migration
-      url: #/widget3.html
-
-- title: Documentation
-  subfolderitems:
-    - page: SDLC
-      url: #/widget1.html
-    - page: ISMS
-      url: #/widget2.html
-    - page: QMS
-      url: #/widget3.html
+    - title: Home
+      url: /
+    - title: Getting started
+      url: /intro-start.html
+    - title: Using the templates
+      url: /intro-using.html
+    - title: About the site
+      url: /intro-about.html
