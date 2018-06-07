@@ -4,7 +4,7 @@ toc:
 - title: Introduction
   subfolderitems:
     - title: Home
-      url: /
+      url: /index.html
     - title: Getting started
       url: /intro-start.html
     - title: Using the templates
@@ -13,3 +13,5 @@ toc:
       url: /intro-about.html
     - title: About regulations
       url: /intro-regulations.html
+    - title: Why this site
+      url: /intro-whythis.html

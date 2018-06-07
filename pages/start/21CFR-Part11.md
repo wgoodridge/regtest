@@ -1,7 +1,8 @@
 ---
 title: 21 CFR Part 11
 tags: [formatting]
-keyords: notes, tips, cautions, admonitions
+keywords: regulation, Part11, 21, CFR, regulated, introduction
+search: "true"
 last_updated: March 27, 2018
 layout: page
 summary: "Background material on 21 CFR Part 11 Regulation"

@@ -1,19 +1,14 @@
 ---
-title: SOP Template
-layout: default
-url: /pages/sops/sop-template.html
-procedure: Procedure Name
-activity: Procedure Activity
-company: Company Name
-author: Author Name
-department: Department Name
-effectiveDate: mm/dd/yyyy
-number: SOP Number
+title: SOP template
+tags: [formatting]
+keywords: SOP, template,
+search: "false"
+last_updated: March 27, 2018
+layout: page
+summary: "How to use the templates."
+permalink: intro-using.html
 ---
-| **SOP Number** | {{page.number}}  |
-| **SOP Title**| {{page.title}}  |
-| **Department**  |  {{page.department}}      |
-|**Effective Date**   | {{page.effectiveDate}}   |
+
 
 # Purpose
 This procedure describes how to perform {{page.procedure}} at {{page.company}}.

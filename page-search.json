@@ -1,0 +1,15 @@
+---
+search: "false"
+---
+[
+  {% for page in site.pages %}
+
+    {
+      {% if page.search == "true" %}
+        "title"    : "{{ page.title | escape }}",
+        "url"      : "{{ site.baseurl }}{{ page.url }}",
+        "keywords" : "{{ page.keywords | join: ', ' }}"
+      {% endif %}
+      } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

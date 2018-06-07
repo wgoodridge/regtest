@@ -1,11 +1,13 @@
 ---
-title: Using this site
+title: Why this site
 tags: [formatting]
-keyords: notes, tips, cautions, admonitions
+keywords: tutorial, regulation, introduction, about, why, purpose
+search: "true"
 last_updated: March 27, 2018
 layout: page
-summary: "Using this site for regulated  documentation  "
-permalink: whythis.html
+summary: "Reason for this site "
+permalink: intro-whythis.html
+---
 ---
 {{page.title}}
 {: .w3-xlarge}
@@ -21,12 +23,12 @@ This website is mostly a tutorial on how to set up Sphinx for continuous deploym
 
 The setup presented here is great to solve the following problems:
 
-    You are the only tech writer of your company and cannot keep up with the software production (1 TW for 6+ dev teams)
-    You must wear the PM hat, the tech writer hat, and the QA hat, and want to automate the QA part.
-    You want to enable developers to contribute to the docs.
-    You still want to have full control over the docs to steer it in the right direction.
-    You want to be able to write the docs too, or fix other contributors’ documentation.
-    You do not want to break the bank with licenses.
+You are the only tech writer of your company and cannot keep up with the software production (1 TW for 6+ dev teams)
+You must wear the PM hat, the tech writer hat, and the QA hat, and want to automate the QA part.
+You want to enable developers to contribute to the docs.
+You still want to have full control over the docs to steer it in the right direction.
+You want to be able to write the docs too, or fix other contributors’ documentation.
+You do not want to break the bank with licenses.
 
 The solution uses GitHub, Travis CI and Sphinx but if you are using different tools, like Bitbucket and Jekyll, or a local setup of Git and Hugo, the examples should still be meaningful.
 

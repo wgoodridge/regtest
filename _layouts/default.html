@@ -6,11 +6,21 @@
     <!-- <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/css/w3.css"> -->
     <link rel="stylesheet" href={{ "/css/w3.css" | relative_url }}>
     <link rel="stylesheet" href={{ "/css/mystyle.css" | relative_url }}>
+    <script src="{{ "/js/simple-jekyll-search.js" | relative_url }}"></script>
+    <!-- <script src="{{ site.baseurl }}/js/simple-jekyll-search.js"></script> -->
+
+
   </head>
 <body>
-  <header class="w3-container w3-margin w3-black ">
-    <p class="w3-large">{{site.title}} - <span class="w3-medium">{{site.subtitle}}</span> </p>
+  <header class="w3-margin-left w3-margin-right  ">
+    <p class="w3-xlarge">{{site.title}} - <span class="w3-medium">{{site.subtitle}}</span> </p>
+    <div class="w3-bar w3-light-gray ">
+    <a href="{{"/index.html" | relative_url }}" class="w3-bar-item w3-button ">Home</a>
+    <a href="{{"/scratch.html" | relative_url }}" class="w3-bar-item w3-button ">Scratch</a>
+    <a href= "{{"/search.html" | relative_url }}" class="w3-bar-item w3-button ">Search</a>
+    </div>
   </header>
+
   <div class="w3-row">
     <div class="w3-col w3-left w3-container" style="width:250px">
       {% include sidebar.html %}
@@ -19,10 +29,10 @@
       {{content}}
     </div>
   </div>
-  <footer class="w3-black w3-margin">
-    <div class="w3-container ">
-      <h3>Footer</h3>
-    </div>
+
+  <footer class="w3-container w3-margin-left w3-margin-right w3-light-gray">
+      <!-- <p>Built with jekyll hosted on github by wwgoodridge@gmail.com</p> -->
+      <p>Built with <a href="https://jekyllrb.com/">Jekyll</a> hosted on <a href="https://github.com/">GitHub</a> by <a href="mailto:wwgoodridge@gmail.com?subject=RegTest">wwgoodridge@gmail.com</a>  </p>
   </footer>
   </body>
 </html>

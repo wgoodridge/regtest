@@ -1,7 +1,8 @@
 ---
 title: About the site
 tags: [formatting]
-keywords: notes, tips, cautions, admonitions
+keywords: introduction, about, regulated, test, document, tutorial
+search: "true"
 last_updated: March 27, 2018
 layout: page
 summary: "How the site was constructed and the tools used."

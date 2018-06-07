@@ -1,7 +1,8 @@
 ---
 title: Using the templates
 tags: [formatting]
-keywords: notes, tips, cautions, admonitions
+keywords: templates, use, introduction
+search: "true"
 last_updated: March 27, 2018
 layout: page
 summary: "How to use the templates."

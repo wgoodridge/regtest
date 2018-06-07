@@ -1,10 +1,11 @@
 ---
-title: About the regulations
+title: Overview of regulations
 tags: [formatting]
-keywords: notes, tips, cautions, admonitions
+keywords: regulation, regulated, FDA, GXP, security, GAMP5, ISO, Part11, CFR
+search: "true"
 last_updated: March 27, 2018
 layout: page
-summary: "Understanding the regulations"
+summary: "Understanding the various regulations, guidance, and standards"
 permalink: intro-regulations.html
 ---
 **{{page.title}}**
@@ -14,12 +15,15 @@ permalink: intro-regulations.html
 * TOC
 {:toc .wwg-button .w3-light-grey}
 
-page.url ={{page.url}}
+### Overview
+Regulatory requirements can be confusing with a myriad of terms used by agencies who publish then. This section explains the terms used by the agencies who publish them.
 
-### First heading
+#### FDA Regulations
 
-this is some text
+#### FDA Guidance
 
-### Second heading
+#### ISO Standards
 
-this is some text
+### GAMP5 Best Practices
+
+### GXP

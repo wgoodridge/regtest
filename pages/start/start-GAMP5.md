@@ -1,7 +1,8 @@
 ---
 title: GAMP5
 tags: [formatting]
-keyords: notes, tips, cautions, admonitions
+keyords: regulation, GAMP, GAMP5, best, practice, introduction
+search: "true"
 last_updated: March 27, 2018
 layout: page
 summary: "Background material on GAMP5 best practices"
