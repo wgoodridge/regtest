@@ -9,9 +9,11 @@ toc:
       url: /intro-start.html
     - title: Using the templates
       url: /intro-using.html
-    - title: About the site
-      url: /intro-about.html
-    - title: About regulations
-      url: /intro-regulations.html
     - title: Why this site
       url: /intro-whythis.html
+- title: SOPs
+  subfolderitems:
+    - title: Doc Template
+      url: /sops-doc-template.html
+    - title: PDF Template
+      url: /sops-pdf-template.html
